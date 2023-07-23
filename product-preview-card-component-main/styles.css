@@ -1,13 +1,64 @@
-body{
-    background-color: black;
-    color: antiquewhite;
+/* HERE IS THE TESTER! */
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.box-one{
+    background: black;
+    width: 100px;
+    height: 100px;
+}
+.box-two{
+    background: bisque;
+    width: 100px;
 }
 
-@media (min-width: 375px) {
-    body{
-        font-size: larger;
-        color: blue;
-        background-color: burlywood;
+@media (max-width: 400px) {
+    .container{
+        display: flex;       
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
+    .box-one{
+        background: black;
+        width: 100px;
+        height: 100px;
+    }
+    .box-two{
+        background: bisque;
+        width: 100px;
+        height: 100px;
+    }
+} */
 
+.attribution{
+    position: fixed;
+    bottom: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+    display: flex;
+    /* width: 60%; */
+    height: 400px;
+    justify-content: center;
+}
+.box-one img{
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+.box-two{
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    padding: 2%;
+    width: 266px;
+    background-color: hsl(0, 0%, 100%);
 }
