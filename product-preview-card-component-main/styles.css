@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+
+@media (min-width: 375px) {
+    body{
+        font-size: larger;
+        color: blue;
+        background-color: burlywood;
+    }
+
+}
