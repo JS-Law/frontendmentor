@@ -18,16 +18,18 @@ html{
 .container-results{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     border: 2px solid blue;
     background-color: blue;
     height: 50%;
-    width: 30%;
+    width: 25%;
     padding: 10px;
     border-radius: 1rem;
+
 }
 .heading-one{
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .results{
 
@@ -50,43 +52,69 @@ html{
 .container-summary{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* border: 2px solid yellow; */
     background-color: wheat;
     height: 50%;
-    width: 30%;
+    width: 25%;
     padding: 10px;
     margin-left: -3%;
     z-index: -1;
     padding-left: 6%;
     border-radius: 1rem;
+    /* margin-right: 6px; */
 }
 .heading-one-summary{
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .reaction-card{
-
+    /* display: flex; */
+    padding: 15px;
 }
 .reaction-card-title{
-
+    display: flex;
+    justify-content: start;
+}
+.card-result{
+    display: flex;
+    justify-content: end;
 }
 .memory-card{
-
+    /* display: flex; */
+    padding: 15px;
 }
 .memory-card-title{
-
+    display: flex;
+    justify-content: start;
+}
+.card-result{
+    display: flex;
+    justify-content: end;
 }
 .verbal-card{
-
+    /* display: flex; */
+    padding: 15px;
 }
 .verbal-card-title{
-
+    display: flex;
+    justify-content: start;
+}
+.card-result{
+    display: flex;
+    justify-content: end;
 }
 .visual-card{
-
+    /* display: flex; */
+    padding: 15px;
 }
 .visual-card-title{
-
+    display: flex;
+    justify-content: start;
+}
+.card-result{
+    display: flex;
+    justify-content: end;
 }
 .button{
 
