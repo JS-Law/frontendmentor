@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+html{
+    height: 100%;
+    background-color: beige;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* CARD ONE */
+.container-results{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid blue;
+    background-color: blue;
+    height: 50%;
+    width: 30%;
+    padding: 10px;
+    border-radius: 1rem;
+}
+.heading-one{
+
+}
+.results{
+
+}
+.result{
+
+}
+.result-of{
+
+}
+.heading-two{
+
+}
+.results-summary{
+
+}
+/* END OF CARD ONE */
+
+/* CARD TWO */
+.container-summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px solid yellow; */
+    background-color: wheat;
+    height: 50%;
+    width: 30%;
+    padding: 10px;
+    margin-left: -3%;
+    z-index: -1;
+    padding-left: 6%;
+    border-radius: 1rem;
+}
+.heading-one-summary{
+
+}
+.reaction-card{
+
+}
+.reaction-card-title{
+
+}
+.memory-card{
+
+}
+.memory-card-title{
+
+}
+.verbal-card{
+
+}
+.verbal-card-title{
+
+}
+.visual-card{
+
+}
+.visual-card-title{
+
+}
+.button{
+
+}
+/* END OF CARD TWO */
