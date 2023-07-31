@@ -21,7 +21,7 @@ html{
     /* justify-content: space-around; */
     border: 2px solid blue;
     background-color: blue;
-    height: 50%;
+    height: 55%;
     width: 25%;
     padding: 10px;
     border-radius: 1rem;
@@ -55,9 +55,9 @@ html{
     /* justify-content: space-around; */
     /* border: 2px solid yellow; */
     background-color: wheat;
-    height: 50%;
+    height: 55%;
     width: 25%;
-    padding: 10px;
+    /* padding: 10px; */
     margin-left: -3%;
     z-index: -1;
     padding-left: 6%;
@@ -67,10 +67,18 @@ html{
 .heading-one-summary{
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: -15px;
+    margin-top: 15px;
 }
 .reaction-card{
-    /* display: flex; */
-    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+    background-color: aquamarine;
+    border-radius: .5rem;
+    margin-right: 20px;
+    padding: 10px;
+    margin-top: 10px;
 }
 .reaction-card-title{
     display: flex;
@@ -81,8 +89,14 @@ html{
     justify-content: end;
 }
 .memory-card{
-    /* display: flex; */
-    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: .5rem;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 .memory-card-title{
     display: flex;
@@ -93,8 +107,14 @@ html{
     justify-content: end;
 }
 .verbal-card{
-    /* display: flex; */
-    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: .5rem;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 .verbal-card-title{
     display: flex;
@@ -105,8 +125,14 @@ html{
     justify-content: end;
 }
 .visual-card{
-    /* display: flex; */
-    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: .5rem;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 .visual-card-title{
     display: flex;
