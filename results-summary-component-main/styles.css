@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Hanken Grotesk;
 }
 body{
     height: 100%;
@@ -21,24 +22,42 @@ html{
     /* justify-content: space-around; */
     border: 2px solid blue;
     background-color: blue;
-    height: 55%;
-    width: 25%;
+    height: 513px;
+    width: 367px;
     padding: 10px;
-    border-radius: 1rem;
+    border-radius: 2rem;
 
 }
 .heading-one{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 600;
 }
 .results{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 75px;
+    /* border-radius: 10rem; */
+    background-color: chocolate;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 50%;
 }
 .result{
-
+    font-size: 80px;
+    font-weight: 700;
 }
 .result-of{
-
+    margin-top: -15px;
+    font-size: 18px;
 }
 .heading-two{
 
@@ -55,94 +74,136 @@ html{
     /* justify-content: space-around; */
     /* border: 2px solid yellow; */
     background-color: wheat;
-    height: 55%;
-    width: 25%;
+    height: 513px;
+    width: 415px;
     /* padding: 10px; */
-    margin-left: -3%;
+    margin-left: -50px;
     z-index: -1;
     padding-left: 6%;
-    border-radius: 1rem;
-    /* margin-right: 6px; */
+    border-radius: 2rem;
+
 }
 .heading-one-summary{
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: -15px;
-    margin-top: 15px;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 600;
 }
 .reaction-card{
     display: flex;
     justify-content: space-between;
-    margin-left: -15px;
+    margin-left: 40px;
     background-color: aquamarine;
-    border-radius: .5rem;
-    margin-right: 20px;
-    padding: 10px;
-    margin-top: 10px;
+    border-radius: .75rem;
+    margin-right: 35px;
+    padding: 17px;
+    margin-top: 17px;
+    margin-bottom: 9px;
 }
 .reaction-card-title{
     display: flex;
     justify-content: start;
+    gap: 10px;
+    font-size: 18px;
 }
 .card-result{
     display: flex;
     justify-content: end;
+    font-size: 18px;
+    gap: 8px;
+}
+.score{
+    font-size: 18px;
 }
 .memory-card{
     display: flex;
     justify-content: space-between;
-    margin-left: -15px;
-    padding: 10px;
+    margin-left: 40px;
+    padding: 17px;
     background-color: aquamarine;
-    border-radius: .5rem;
-    margin-right: 20px;
+    border-radius: .75rem;
+    margin-right: 35px;
     margin-top: 10px;
+    margin-bottom: 9px;
 }
 .memory-card-title{
     display: flex;
     justify-content: start;
+    gap: 10px;
+    font-size: 18px;
 }
 .card-result{
     display: flex;
     justify-content: end;
+    font-size: 18px;
+    gap: 8px;
+}
+.score{
+    font-size: 18px;
 }
 .verbal-card{
     display: flex;
     justify-content: space-between;
-    margin-left: -15px;
-    padding: 10px;
+    margin-left: 40px;
+    padding: 16px;
     background-color: aquamarine;
-    border-radius: .5rem;
-    margin-right: 20px;
+    border-radius: .75rem;
+    margin-right: 35px;
     margin-top: 10px;
+    margin-bottom: 9px;
 }
 .verbal-card-title{
     display: flex;
     justify-content: start;
+    gap: 10px;
+    font-size: 18px;
 }
 .card-result{
     display: flex;
     justify-content: end;
+    font-size: 18px;
+    gap: 8px;
+}
+.score{
+    font-size: 18px;
 }
 .visual-card{
     display: flex;
     justify-content: space-between;
-    margin-left: -15px;
-    padding: 10px;
+    margin-left: 40px;
+    padding: 17px;
     background-color: aquamarine;
-    border-radius: .5rem;
-    margin-right: 20px;
+    border-radius: .75rem;
+    margin-right: 35px;
     margin-top: 10px;
+    margin-bottom: 9px;
 }
 .visual-card-title{
     display: flex;
     justify-content: start;
+    gap: 10px;
+    font-size: 18px;
+}
+.score{
+    font-size: 18px;
 }
 .card-result{
     display: flex;
     justify-content: end;
+    font-size: 18px;
+    gap: 8px;
 }
 .button{
-
+    margin-top: 30px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 35px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 2em;
 }
 /* END OF CARD TWO */
