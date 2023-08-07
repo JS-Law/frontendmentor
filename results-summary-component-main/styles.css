@@ -20,7 +20,6 @@ html{
     display: flex;
     flex-direction: column;
     color: antiquewhite;
-    /* justify-content: space-around; */
     /* border: 2px solid blue; */
     /* background-color: hsla(241, 81%, 54%); */
     background: linear-gradient(hsla(252, 100%, 67%, 0.801), hsla(241, 81%, 54%));
@@ -76,8 +75,9 @@ html{
     justify-content: center;
     flex-direction: column;
     gap: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 /* END OF CARD ONE */
 
@@ -114,7 +114,8 @@ html{
     display: flex;
     justify-content: space-between;
     margin-left: 40px;
-    background-color: hsla(0, 100%, 67%, 0.207);
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsla(0, 100%, 67%);
     border-radius: .75rem;
     margin-right: 35px;
     /* padding-top: 16px;
@@ -134,6 +135,7 @@ html{
     justify-content: end;
     font-size: 18px;
     gap: 8px;
+    color: black;
 }
 .score{
     font-size: 18px;
@@ -145,7 +147,8 @@ html{
     /* padding-top: 16px;
     padding-bottom: 16px; */
     padding: 16px;
-    background-color: hsla(39, 100%, 56%, 0.271);
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
     border-radius: .75rem;
     margin-right: 35px;
     /* margin-top: 10px; */
@@ -173,7 +176,8 @@ html{
     /* padding-top: 16px;
     padding-bottom: 16px; */
     padding: 16px;
-    background-color: hsla(166, 100%, 37%, 0.215);
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color: hsla(166, 100%, 37%);
     border-radius: .75rem;
     margin-right: 35px;
     /* margin-top: 10px; */
@@ -202,7 +206,8 @@ html{
     /* padding-top: 16px;
     padding-bottom: 16px; */
     padding: 16px;
-    background-color: hsla(234, 85%, 45%, 0.327);
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: hsla(234, 85%, 45%);
     border-radius: .75rem;
     margin-right: 35px;
     /* margin-top: 10px; */
@@ -236,4 +241,61 @@ html{
     border-radius: 2em;
     font-size: 18px;
 }
+.button:hover{
+    background: linear-gradient(hsla(252, 100%, 67%, 0.801), hsla(241, 81%, 54%));
+}
 /* END OF CARD TWO */
+
+/* MOBILE VERSON */
+@media (max-width: 610px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 104%;
+    }
+
+    .container-results{
+        width: 104%;
+        margin-left: -1px;
+        margin-top: -10px;
+        height: 410px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .heading-one{
+        margin-top: 15px;
+        padding-top: 30px;
+        margin-bottom: -15px;
+    }
+    .heading-two{
+        margin-top: 15px;
+    }
+    .results{
+        margin-left: 105px;
+        margin-right: 105px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-radius: 50%;
+    }
+
+    .results-summary{
+        gap: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 2%;
+    }
+
+    .container-summary{
+        width: 103.75%;
+        margin-right: -10px;
+        margin-left: -10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        box-shadow: none;
+        padding-bottom: 20%;    
+    }
+
+}
