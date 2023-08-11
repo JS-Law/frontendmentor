@@ -10,11 +10,14 @@ body{
     background-color: hsl(257, 40%, 49%);
     background-size: cover;
     min-height: 100vh;
-    margin: 50px;
-
+    max-height: 100vh;
+    margin: 0;
+    margin-left: 9%;
+    margin-right: 9%;
 }
 /* HEADER */
 .header{
+    padding-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -44,6 +47,7 @@ body{
 .intro-text{
     font-family: 'Poppins' , sans-serif ;
     color: white;
+    font-weight: 400;
 
 }
 .intro-button{
@@ -56,9 +60,110 @@ body{
     padding-right: 50px;
     max-width: 165px;
     text-align: center;
+    -webkit-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
 }
 
 /* FOOTER */
-.footer{
+.socials{
+    height: 40px;
+}
+.filter-white{
+    width: 100%;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(359deg) brightness(104%) contrast(102%);
+}
+li > img{
+    max-height: 20px;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.social-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+}
+.attribution{
+    position: fixed;
+    bottom: 0;
+    left: 45%;
 
+}
+@media (width <= 1100px) {
+    body{
+        background-image: url(./images/bg-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 6%;
+    }
+    .content{
+        margin: 0;
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-desktop > img{
+        width: 100%;
+    }
+    .header{
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .header > img{
+        width: 40%;
+    }
+    .intro-container{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+    .intro-header{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .intro-button{
+        font-size: small;
+        padding: 10px;
+        padding-left: 25%;
+        padding-right: 40%;
+    }
+    .social-list{
+        justify-content: center;
+        padding: 0;
+        padding-top: 50px;
+        margin-bottom: 20px;
+
+    }
+    .attribution{
+        margin-top: 60px;
+        position: sticky;
+    }
+    .attribution > a{
+        color: white;
+    }
+
+    li > img{
+        max-height: 15px;
+    }
+    li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px white;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+    }
 }
