@@ -1,0 +1,44 @@
+/* COLORS */
+/* #666CA3 HEADER BUTTON HOVER*/
+/* #13183F HEADER BUTTON IDLE */
+/* #83869A */
+/* #F74780 */
+/* #FFA7C3 */
+/* #FFFFFF */
+/* #F02AA6-FF6F48 */
+/* #F851FF-F02AA6 */
+body{
+    margin: 0;
+}
+*{
+    font-family: 'Plus Jakarta Sans' , sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    margin-top: 1%;
+}
+header > img{
+    width: 111.168px;
+    height: 27.684px;
+    flex-shrink: 0;
+}
+.button{
+    color: var(--ffffff, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    padding-right: 31px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: var(--13183-f, #13183F);
+    text-align: center;
+}
