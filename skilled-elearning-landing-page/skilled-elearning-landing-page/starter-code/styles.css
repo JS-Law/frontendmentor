@@ -31,7 +31,7 @@ header > img{
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 28px; /* 155.556% */
     padding-top: 14px;
     padding-bottom: 14px;
@@ -41,4 +41,15 @@ header > img{
     border-radius: 28px;
     background: var(--13183-f, #13183F);
     text-align: center;
+}
+.content-top{
+    display: flex;
+}
+.content-cta{
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    margin-top: 11.5%;
+    width: 457px;
+    height: 359px;
+    flex-shrink: 0;
 }
