@@ -82,18 +82,34 @@ header > img{
     font-weight: 500;
     line-height: 28px; /* 155.556% */
 }
-cta
+.cta-button{
+    color: var(--ffffff, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    padding-right: 21px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: var(--13183-f, #13183F);
+    text-align: center;
+    max-width: 164px;
+}
 .svg-hero img{
     width: 991.631px;
     height: 936.917px;
     flex-shrink: 0;
-    margin-right: -334px;
+    left: calc(50% + 40px);
 }
 .svg-hero{
+    overflow: hidden;
     z-index: -1;
     position: absolute;
     top: -200px;
     left: 784px;
     overflow: hidden;
-    /* transform: -336px -146px; */
 }
